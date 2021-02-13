@@ -89,7 +89,7 @@
 
 .home-values__container {
   display: flex;
-  background: url("../../assets/shared/desktop/bg-pattern-leaf.svg") no-repeat;
+  /* background: url("../../assets/shared/desktop/bg-pattern-leaf.svg") no-repeat; */
 }
 
 .home-values__card {
