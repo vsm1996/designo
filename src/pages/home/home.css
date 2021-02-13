@@ -53,8 +53,103 @@
   justify-content: center;
 }
 
+.home-header__link:hover {
+  color: var(--color-white);
+  background-color: var(--color-light-peach);
+  transition: all 0.5s ease-in-out;
+}
+
 .home-header__img {
   position: absolute;
   right: -90px;
   top: -30px;
+}
+
+.home-projects__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+
+  margin: 160px 0;
+}
+
+.home-projects__link {
+  text-decoration: none;
+  color: var(--color-white);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+}
+
+.home-projects1 {
+  color: var(--color-white);
+  width: 541px;
+  height: 640px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.home-projects2 {
+  color: var(--color-white);
+  width: 541px;
+  height: 308px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.web-design {
+  background: url(../../assets/home/desktop/image-web-design-large.jpg)
+      no-repeat center,
+    rgba(0, 0, 0, 0.5);
+  background-size: contain;
+  background-blend-mode: multiply;
+}
+
+.web-design:hover {
+  background: url(../../assets/home/desktop/image-web-design-large.jpg)
+      no-repeat center,
+    rgba(231, 129, 107, 0.8);
+  background-blend-mode: lighten;
+}
+
+.app-design {
+  background: url(../../assets/home/desktop/image-app-design.jpg) no-repeat
+      center,
+    rgba(0, 0, 0, 0.5);
+  background-size: contain;
+  background-blend-mode: multiply;
+  margin-bottom: 24px;
+}
+
+.app-design:hover {
+  background: url(../../assets/home/desktop/image-app-design.jpg) no-repeat
+      center,
+    rgba(231, 129, 107, 0.8);
+  background-blend-mode: lighten;
+}
+
+.graphic-design {
+  background: url(../../assets/home/desktop/image-graphic-design.jpg) no-repeat
+      center,
+    rgba(0, 0, 0, 0.5);
+  background-size: contain;
+  background-blend-mode: multiply;
+}
+
+.graphic-design:hover {
+  background: url(../../assets/home/desktop/image-graphic-design.jpg) no-repeat
+      center,
+    rgba(231, 129, 107, 0.8);
+  background-blend-mode: lighten;
 }

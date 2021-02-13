@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 import logo from '../../../assets/shared/desktop/logo-dark.png'
 
 import './logodark.css'
 const LogoDark = () => {
   return (
-
-    <img src={logo} alt="designo logo" className="logo" />
+    <Link to="/">
+      <img src={logo} alt="designo logo" className="logo" />
+    </Link>
 
   )
 }
