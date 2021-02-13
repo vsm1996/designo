@@ -1,3 +1,5 @@
 .App {
   padding: 64px 165px;
+  background: url("./assets/shared/desktop/bg-pattern-leaf.svg") no-repeat;
+  background-position: 0 485px;
 }

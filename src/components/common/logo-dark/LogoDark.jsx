@@ -7,7 +7,7 @@ import './logodark.css'
 const LogoDark = () => {
   return (
     <Link to="/">
-      <img src={logo} alt="designo logo" className="logo" />
+      <img src={logo} alt="designo logo dark" className="logo-dark" />
     </Link>
 
   )

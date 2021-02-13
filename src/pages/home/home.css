@@ -114,6 +114,7 @@
     rgba(0, 0, 0, 0.5);
   background-size: contain;
   background-blend-mode: multiply;
+  transition: all 0.3s ease-out;
 }
 
 .web-design:hover {
@@ -130,6 +131,7 @@
   background-size: contain;
   background-blend-mode: multiply;
   margin-bottom: 24px;
+  transition: all 0.3s ease-out;
 }
 
 .app-design:hover {
@@ -145,6 +147,7 @@
     rgba(0, 0, 0, 0.5);
   background-size: contain;
   background-blend-mode: multiply;
+  transition: all 0.3s ease-out;
 }
 
 .graphic-design:hover {
@@ -152,4 +155,37 @@
       center,
     rgba(231, 129, 107, 0.8);
   background-blend-mode: lighten;
+}
+
+.home-values__container {
+  display: flex;
+  background: url("../../assets/shared/desktop/bg-pattern-leaf.svg") no-repeat;
+}
+
+.home-values__card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--color-dark-grey);
+}
+
+.home-values__card-title {
+  margin: 3rem 0 2rem 0;
+}
+
+.home-values__card-text {
+}
+
+.circle-first {
+  position: absolute;
+}
+.circle-second {
+  position: absolute;
+  transform: rotate(270deg);
+}
+.circle-third {
+  position: absolute;
+  transform: rotate(90deg);
 }
