@@ -1,0 +1,12 @@
+.nav__list {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+}
+
+.nav__list-item {
+  margin-left: 2.625rem;
+}

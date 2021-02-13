@@ -1,0 +1,60 @@
+.home-header__container {
+  background: url("../../assets/home/desktop/bg-pattern-hero-home.svg")
+      no-repeat,
+    var(--color-peach);
+  background-position: 555px 0;
+  background-blend-mode: multiply;
+  border-radius: 15px;
+  padding: 145px 95px;
+  color: var(--color-white);
+
+  width: 1111px;
+  height: 640px;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: column;
+  width: 540px;
+}
+
+.home-header__title {
+  /* margin-bottom: 3rem; */
+}
+
+.home-header__text {
+  margin: 40px 0;
+  width: 445px;
+}
+
+.home-header__link {
+  width: 152px;
+  height: 56px;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  border-radius: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  color: var(--color-dark-grey);
+  background-color: var(--color-white);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-header__img {
+  position: absolute;
+  right: -90px;
+  top: -30px;
+}
