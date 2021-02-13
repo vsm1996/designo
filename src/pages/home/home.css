@@ -1,70 +1,3 @@
-.home-header__container {
-  background: url("../../assets/home/desktop/bg-pattern-hero-home.svg")
-      no-repeat,
-    var(--color-peach);
-  background-position: 555px 0;
-  background-blend-mode: multiply;
-  border-radius: 15px;
-  padding: 145px 95px;
-  color: var(--color-white);
-
-  width: 1111px;
-  height: 640px;
-
-  display: flex;
-  align-items: center;
-
-  position: relative;
-  overflow: hidden;
-}
-
-.home-header {
-  display: flex;
-  flex-direction: column;
-  width: 540px;
-}
-
-.home-header__title {
-  /* margin-bottom: 3rem; */
-}
-
-.home-header__text {
-  margin: 40px 0;
-  width: 445px;
-}
-
-.home-header__link {
-  width: 152px;
-  height: 56px;
-
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 22px;
-  border-radius: 8px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  text-decoration: none;
-
-  color: var(--color-dark-grey);
-  background-color: var(--color-white);
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-header__link:hover {
-  color: var(--color-white);
-  background-color: var(--color-light-peach);
-  transition: all 0.5s ease-in-out;
-}
-
-.home-header__img {
-  position: absolute;
-  right: -90px;
-  top: -30px;
-}
-
 .home-projects__container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -84,7 +17,7 @@
   letter-spacing: 5px;
 }
 
-.home-projects1 {
+.home-projects-left-card {
   color: var(--color-white);
   width: 541px;
   height: 640px;
@@ -94,9 +27,12 @@
   align-items: center;
   flex-direction: column;
   text-transform: uppercase;
+  transition: all 0.4s ease-out;
+  background-size: contain;
+  background-blend-mode: multiply;
 }
 
-.home-projects2 {
+.home-projects-right-card {
   color: var(--color-white);
   width: 541px;
   height: 308px;
@@ -106,15 +42,15 @@
   align-items: center;
   flex-direction: column;
   text-transform: uppercase;
+  transition: all 0.4s ease-out;
+  background-size: contain;
+  background-blend-mode: multiply;
 }
 
 .web-design {
   background: url(../../assets/home/desktop/image-web-design-large.jpg)
       no-repeat center,
     rgba(0, 0, 0, 0.5);
-  background-size: contain;
-  background-blend-mode: multiply;
-  transition: all 0.3s ease-out;
 }
 
 .web-design:hover {
@@ -128,10 +64,7 @@
   background: url(../../assets/home/desktop/image-app-design.jpg) no-repeat
       center,
     rgba(0, 0, 0, 0.5);
-  background-size: contain;
-  background-blend-mode: multiply;
   margin-bottom: 24px;
-  transition: all 0.3s ease-out;
 }
 
 .app-design:hover {
@@ -145,9 +78,6 @@
   background: url(../../assets/home/desktop/image-graphic-design.jpg) no-repeat
       center,
     rgba(0, 0, 0, 0.5);
-  background-size: contain;
-  background-blend-mode: multiply;
-  transition: all 0.3s ease-out;
 }
 
 .graphic-design:hover {
@@ -169,6 +99,11 @@
   align-items: center;
   text-align: center;
   color: var(--color-dark-grey);
+  transition: all 0.4s ease-in-out;
+}
+
+.home-values__card:hover {
+  transform: scale(0.85, 0.85);
 }
 
 .home-values__card-title {
