@@ -21,7 +21,7 @@
 }
 
 .home-header__container:hover {
-  box-shadow: 15px 19px 25px var(--color-dark-grey);
+  box-shadow: 15px 19px 45px var(--color-dark-grey);
 }
 
 .home-header {
