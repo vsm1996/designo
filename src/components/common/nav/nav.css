@@ -4,3 +4,9 @@
   align-items: center;
   margin-bottom: 67px;
 }
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    margin-bottom: 64px;
+  }
+}

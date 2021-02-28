@@ -106,6 +106,10 @@
   transform: scale(0.85, 0.85);
 }
 
+.home-values__card-svg {
+  z-index: 1;
+}
+
 .home-values__card-title {
   margin: 3rem 0 2rem 0;
 }
@@ -123,4 +127,81 @@
 .circle-third {
   position: absolute;
   transform: rotate(90deg);
+}
+
+@media only screen and (max-width: 768px) {
+  .home-projects__container {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    margin: 80px 0;
+  }
+
+  .home-projects-left-card {
+    width: 689px;
+    height: 200px;
+    margin-bottom: 24px;
+  }
+
+  .home-projects-right-card {
+    width: 689px;
+    height: 200px;
+  }
+
+  .home-values__container {
+    flex-direction: column;
+  }
+
+  .home-values__card {
+    flex-direction: unset;
+    margin: 2rem 0;
+  }
+
+  .home-values__card-text-content {
+    margin: 0 0 28px 48px;
+    text-align: left;
+  }
+
+  .home-values__card-title {
+    margin-bottom: 16px;
+  }
+
+  .web-design {
+    background: url(../../assets/home/tablet/image-web-design.jpg) no-repeat
+        center,
+      rgba(0, 0, 0, 0.5);
+  }
+
+  .web-design:hover {
+    background: url(../../assets/home/tablet/image-web-design.jpg) no-repeat
+        center,
+      rgba(231, 129, 107, 0.8);
+    background-blend-mode: lighten;
+  }
+
+  .app-design {
+    background: url(../../assets/home/tablet/image-app-design.jpg) no-repeat
+        center,
+      rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+  }
+
+  .app-design:hover {
+    background: url(../../assets/home/tablet/image-app-design.jpg) no-repeat
+        center,
+      rgba(231, 129, 107, 0.8);
+    background-blend-mode: lighten;
+  }
+
+  .graphic-design {
+    background: url(../../assets/home/tablet/image-graphic-design.jpg) no-repeat
+        center,
+      rgba(0, 0, 0, 0.5);
+  }
+
+  .graphic-design:hover {
+    background: url(../../assets/home/tablet/image-graphic-design.jpg) no-repeat
+        center,
+      rgba(231, 129, 107, 0.8);
+    background-blend-mode: lighten;
+  }
 }

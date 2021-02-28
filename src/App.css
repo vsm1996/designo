@@ -3,3 +3,10 @@
   background: url("./assets/shared/desktop/bg-pattern-leaf.svg") no-repeat;
   background-position: 0 485px;
 }
+
+@media only screen and (max-width: 768px) {
+  .App {
+    padding: 64px 40px;
+    background: none;
+  }
+}
